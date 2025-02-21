@@ -1,7 +1,7 @@
 ```hcl
 module "ansible" {
   source  = "Bakyt65/ansible/jenkins"
-  version = "2.0.0"
+  version = "4.0.0"
   region = "us-east-2"
   instance_type = "t2.micro"
   vpc_cidr = "10.0.0.0/16"
